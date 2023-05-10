@@ -1,0 +1,20 @@
+dataset:
+    dataset_name: SUN
+    GZSL: True
+    data_path: ./data/SUN/xian2017
+    save_path: ./experiments/SUN_cls20.0
+    
+model:
+    ifsample: False
+    attr_size: 102
+    input_size: 2048
+    mid_size: 512
+    hidden_size: 64
+    classes: 717
+train:
+    learning_rate: 1e-3
+    batch_size: 128
+    check_point: 0
+    epoch: 2000
+    interval: 100
+    save_every: 10

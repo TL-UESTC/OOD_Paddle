@@ -1,0 +1,1 @@
+from hyperspherical_vae.distributions.von_mises_fisher import VonMisesFisher

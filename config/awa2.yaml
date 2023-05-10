@@ -1,0 +1,21 @@
+dataset:
+    dataset_name: AWA2
+    GZSL: True
+    data_path: ./data/AWA2
+    save_path: ./experiments/AWA2_cls2.0
+    
+model:
+    ifsample: False
+    attr_size: 85
+    input_size: 2048
+    mid_size: 512
+    hidden_size: 64
+    classes: 50
+train:
+    epoch: 1000
+    learning_rate: 1e-4
+    batch_size: 128
+    check_point: 0
+    interval: 200
+    save_every: 10
+    
